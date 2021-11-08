@@ -1,0 +1,14 @@
+.header {
+  margin-top: 50px;
+  &-logo {
+    gap: 10px;
+  }
+  &-list {
+    gap: 0 90px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  &-link {
+    color: #000000;
+  }
+}

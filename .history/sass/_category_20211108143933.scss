@@ -1,0 +1,44 @@
+.category {
+  padding-bottom: 125px;
+  &-item {
+    gap: 50px;
+  }
+  &-content {
+    max-width: 625px;
+    width: 100%;
+  }
+  &-title {
+    max-width: 500px;
+    width: 100%;
+  }
+  &-author {
+    gap: 10px;
+  }
+  &-author--image img {
+    width: 45px;
+    height: 45px;
+    border-radius: 100rem;
+    object-fit: cover;
+  }
+}
+
+// slick slider
+.slick-initialized .slick-slide {
+  display: flex;
+  align-items: center;
+}
+
+button.slick-next {
+  display: block;
+  position: absolute;
+  right: 100px;
+  bottom: 10%;
+  width: 50px;
+  height: 50px;
+  background-color: $primary-color;
+  border-radius: 100rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+}

@@ -1,0 +1,21 @@
+.product {
+  &-title {
+    text-align: center;
+    padding-bottom: 58px;
+  }
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px 80px;
+  }
+  &-image {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 22px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

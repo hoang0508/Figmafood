@@ -1,0 +1,15 @@
+.category {
+  padding-bottom: 125px;
+  &-container {
+    gap: 50px;
+    padding-bottom: 125px;
+  }
+  &-content {
+    max-width: 625px;
+    width: 100%;
+  }
+  &-title {
+    max-width: 500px;
+    width: 100%;
+  }
+}

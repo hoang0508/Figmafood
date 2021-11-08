@@ -1,0 +1,52 @@
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  font-family: "Popins", sans-serif;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.d-flex--center {
+  display: flex;
+  align-items: center;
+}
+
+.d-flex--between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  display: inline-block;
+  color: #fff;
+  background-color: $primary-color;
+  border: 0;
+  &--primary {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: calc(24 / 16);
+    padding: 10px 30px;
+    background: #212542;
+    border: 1.5px solid #ffffff;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &--secondary {
+    padding: 15px 45px;
+    border-width: 5px;
+    border-color: $border-color;
+  }
+}

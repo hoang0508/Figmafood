@@ -1,0 +1,17 @@
+.menu {
+  &-heading {
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px 100px;
+  }
+  &-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

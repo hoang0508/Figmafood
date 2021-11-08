@@ -1,0 +1,10 @@
+.about {
+  padding-bottom: 135px;
+  &-container {
+    gap: 170px;
+  }
+  &-content {
+    max-width: 600px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,20 @@
+.footer {
+  padding-bottom: 50px;
+  a {
+    display: block;
+  }
+  &-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-gap: 0px 116px;
+  }
+  &-logo {
+    gap: 10px;
+  }
+  &-title {
+    padding-bottom: 15px;
+  }
+  &-link {
+    padding-bottom: 20px;
+  }
+}

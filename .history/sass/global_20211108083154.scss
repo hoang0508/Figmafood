@@ -1,0 +1,31 @@
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  font-family: "Popins", sans-serif;
+  line-height: 1;
+  font-size: 16px;
+}
+
+button {
+  display: inline-block;
+  color: #fff;
+  background-color: $primary-color;
+  border-radius: 100rem;
+  border: 0;
+  &--primary {
+    padding: 10px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

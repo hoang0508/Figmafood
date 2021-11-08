@@ -1,0 +1,16 @@
+.hero {
+  &-container {
+    align-items: stretch;
+  }
+  &-content {
+    max-width: 455px;
+    width: 100%;
+  }
+  &-title {
+    font-size: 61px;
+    line-height: calc(92 / 61);
+    span {
+      display: block;
+    }
+  }
+}
